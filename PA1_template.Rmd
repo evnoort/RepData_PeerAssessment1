@@ -7,7 +7,6 @@ output:
 
 
 ## Loading and preprocessing the data
-<<<<<<< HEAD
 ```{r}
 data <- read.csv(unz("activity.zip", "activity.csv"))
 ```
@@ -98,21 +97,3 @@ plot(weekendSteps, type = "l", main = "weekend"
      ,xlab = "interval"
      ,ylab = "average number of steps")
 ```
-=======
-
-
-
-## What is mean total number of steps taken per day?
-
-
-
-## What is the average daily activity pattern?
-
-
-
-## Imputing missing values
-
-
-
-## Are there differences in activity patterns between weekdays and weekends?
->>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
